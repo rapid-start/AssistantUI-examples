@@ -1,0 +1,41 @@
+{
+  "name": "assistantui-examples",
+  "version": "0.1.0",
+  "description": "开源框架@assistant-ui/react代码练习",
+  "scripts": {
+    "postinstall": "oipage-cli disk -d ./.next",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "repository": "https://github.com/rapid-start/AssistantUI-examples",
+  "keywords": [
+    "Next.js"
+  ],
+  "author": {
+    "name": "zxl20070701",
+    "url": "https://github.com/zxl20070701"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rapid-start/AssistantUI-examples/issues"
+  },
+  "homepage": "https://github.com/rapid-start/AssistantUI-examples",
+  "dependencies": {
+    "@assistant-ui/react": "^0.14.15",
+    "@oipage/cli": "^0.2.1",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "typescript": "^5"
+  }
+}
