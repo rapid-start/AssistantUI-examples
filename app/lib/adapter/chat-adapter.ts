@@ -1,6 +1,6 @@
 import type { ChatModelAdapter, ChatModelRunResult } from "@assistant-ui/react";
-import parseString from "./parseString";
-import callFuns from "./callFuns";
+import parseString from "../parseString";
+import callFuns from "../callFuns";
 import { z } from "zod";
 
 /**
